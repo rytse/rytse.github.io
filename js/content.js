@@ -1,0 +1,42 @@
+// Site content is a bunch of tiles of HTML text with a background image
+var CONTENT = [
+	{
+		id: "about",
+		title: "About",
+		content: "My About tile information"
+	},
+
+	{
+		id: "blair3sat",
+		title: "Blair Cubesat",
+		content: "My cubesat tile information"
+	}
+]
+
+function add_tile(title, body) {
+	var container = document.createElement("div");
+	container.className = "fl w-100";
+
+	var head = document.createElement("div");
+	head.className = "section-title"
+
+	var h = document.createElement("h1");
+	h.innerHTML = title;
+
+	var content = document.createElement("div");
+	content.className = "cbody";
+	content.innerHTML = body
+
+	head.appendChild(h);
+	container.appendChild(head);
+	container.appendChild(content);
+
+	return container;
+}
+
+var container = document.getElementById('page-top');
+
+for (var i = 0; i < CONTENT.length; i++) {
+	var c = add_tile(CONTENT[i].title, CONTENT[i].content);
+	container.appendChild(c);
+}
