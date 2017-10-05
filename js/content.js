@@ -34,8 +34,20 @@ function add_tile(title, body) {
 	return container;
 }
 
+// Reference to <body>
 var container = document.getElementById('page-top');
 
+// Create navbar
+var nav = document.createElement('topnav');
+for (var i = 0; i < CONTENT.length; i++) {
+	var link = document.createElement('a');
+	link.href = "#" + CONTENT[i].id;
+	link.innerHTML = CONTENT[i].title;
+	nav.appendChild(link);
+}
+container.appendChild(nav);
+
+// Add tiles to <body>
 for (var i = 0; i < CONTENT.length; i++) {
 	var c = add_tile(CONTENT[i].title, CONTENT[i].content);
 	container.appendChild(c);
