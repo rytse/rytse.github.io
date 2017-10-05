@@ -3,6 +3,7 @@ var CONTENT = [
 	{
 		id: 'about',
 		title: 'About',
+		img: 'pfp.png',
 		content: 'I\'m a junior at <a href="https://mbhs.edu/departments/magnet/">Montgomery Blair High School</a>. I like working on \
 			control systems and modeling things. I\'m also a Life Scout in <a href="https://rockville1449.mytroop.us/">Troop 1449\
 			</a>. Check out my <a href="https://github.com/rytse">GitHub</a> and my <a href="res/Resume.pdf">résumé</a>.'
@@ -11,6 +12,7 @@ var CONTENT = [
 	{
 		id: 'systems',
 		title: 'MBHS Systems',
+		img: 'systems.png',
 		content: 'I\'m a member of MBHS Systems, a new Blair team that takes on hard real-world modeling problems. This year we are \
 			working on a global pollen model, trying to predict pollen concentration based on satellite imagery of \
 			regions\' ecological and geographical features. Most of my work has been on efficiently representing pollen emissions \
@@ -20,27 +22,37 @@ var CONTENT = [
 	{
 		id: 'blair3sat',
 		title: 'Blair Cubesat',
+		img: 'systems.png',
 		content: 'I\'m starting a cubesat team at my highschool. Details coming soon!'
 	}
 ]
 
-function add_tile(title, body) {
+function add_tile(title, body, img_link) {
+	// High level container that holds the entire tile
 	var container = document.createElement('div');
-	container.className = 'fl w-100';
+	container.className = 'w3-row';
 
-	var head = document.createElement('div');
-	head.className = 'section-title'
+	// Image + image container
+	var img = document.createElement('img');
+	img.src = "img/" + img_link;
+	img.alt = title;
+	var img_cont = document.createElement('div');
+	img_cont.className = 'w3-third w3-container';
+	img_cont.appendChild(img);
 
+	// Text + text container
+	var text_cont = document.createElement('div');
+	text_cont.className = 'w3-twothird w3-container';
 	var h = document.createElement('h1');
 	h.innerHTML = title;
-
 	var content = document.createElement('div');
 	content.className = 'cbody';
 	content.innerHTML = body
+	text_cont.appendChild(h);
+	text_cont.appendChild(content);
 
-	head.appendChild(h);
-	container.appendChild(head);
-	container.appendChild(content);
+	container.appendChild(img_cont);
+	container.appendChild(text_cont);
 
 	return container;
 }
@@ -61,6 +73,6 @@ container.appendChild(nav);
 
 // Add tiles to <body>
 for (var i = 0; i < CONTENT.length; i++) {
-	var c = add_tile(CONTENT[i].title, CONTENT[i].content);
+	var c = add_tile(CONTENT[i].title, CONTENT[i].content, CONTENT[i].img);
 	container.appendChild(c);
 }
