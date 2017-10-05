@@ -1,30 +1,30 @@
 // Site content is a bunch of tiles of HTML text with a background image
 var CONTENT = [
 	{
-		id: "about",
-		title: "About",
-		content: "My About tile information"
+		id: 'about',
+		title: 'About',
+		content: 'My About tile information'
 	},
 
 	{
-		id: "blair3sat",
-		title: "Blair Cubesat",
-		content: "My cubesat tile information"
+		id: 'blair3sat',
+		title: 'Blair Cubesat',
+		content: 'My cubesat tile information'
 	}
 ]
 
 function add_tile(title, body) {
-	var container = document.createElement("div");
-	container.className = "fl w-100";
+	var container = document.createElement('div');
+	container.className = 'fl w-100';
 
-	var head = document.createElement("div");
-	head.className = "section-title"
+	var head = document.createElement('div');
+	head.className = 'section-title'
 
-	var h = document.createElement("h1");
+	var h = document.createElement('h1');
 	h.innerHTML = title;
 
-	var content = document.createElement("div");
-	content.className = "cbody";
+	var content = document.createElement('div');
+	content.className = 'cbody';
 	content.innerHTML = body
 
 	head.appendChild(h);
@@ -38,10 +38,11 @@ function add_tile(title, body) {
 var container = document.getElementById('page-top');
 
 // Create navbar
-var nav = document.createElement('topnav');
+var nav = document.createElement('div');
+nav.className = 'topnav';
 for (var i = 0; i < CONTENT.length; i++) {
 	var link = document.createElement('a');
-	link.href = "#" + CONTENT[i].id;
+	link.href = '#' + CONTENT[i].id;
 	link.innerHTML = CONTENT[i].title;
 	nav.appendChild(link);
 }
