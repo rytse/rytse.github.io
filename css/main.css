@@ -1,3 +1,42 @@
+/* Content tile stuff */
+.section-title {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+} 
+a:link {
+	color: blue;
+}
+a:visited {
+	color: green;
+}
+a:hover {
+	color: hotpink;
+}
+a:active {
+	color: hotpink;
+}
+
+h1 {
+	text-align: center;
+}
+
+.cbody {
+	margin:10px;
+	padding: 10px;
+	font-size: 120%;
+}
+
+img {
+	border-radius: 25px;
+	max-width: 90%;
+	max-height: 90%;
+	min-width: 90%;
+	min-height: 90%;
+}
+
 /* Navbar stuff */
 .topnav {
 	background-color: #333;
@@ -24,25 +63,4 @@
 	font-size: 30px;
 }
 
-/* Content tile stuff */
-.section-title {
-	text-align: center;
-}
 
-h1 {
-	text-align: center;
-}
-
-.cbody {
-	margin:10px;
-	padding: 10px;
-	font-size: 120%;
-}
-
-img {
-	border-radius: 25px;
-	max-width: 90%;
-	max-height: 90%;
-	min-width: 90%;
-	min-height: 90%;
-}
