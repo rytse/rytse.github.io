@@ -9,9 +9,18 @@ var CONTENT = [
 	},
 
 	{
+		id: 'systems',
+		title: 'MBHS Systems',
+		content: 'I\'m a member of MBHS Systems, a new Blair team that takes on hard real-world modeling problems. This year we are \
+			working on a global pollen model, trying to predict pollen concentration based on satellite imagery of \
+			regions\' ecological and geographical features. Most of my work has been on efficiently representing pollen emissions \
+			and how pollen plumes move.'
+	},
+
+	{
 		id: 'blair3sat',
 		title: 'Blair Cubesat',
-		content: 'My cubesat tile information'
+		content: 'I\'m starting a cubesat team at my highschool. Details coming soon!'
 	}
 ]
 
