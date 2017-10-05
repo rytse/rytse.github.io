@@ -76,6 +76,7 @@ for (var i = 0; i < CONTENT.length; i++) {
 	nav.appendChild(link);
 }
 container.appendChild(nav);
+container.appendChild(document.createElement('br'));
 
 // Add tiles to <body>
 for (var i = 0; i < CONTENT.length; i++) {
