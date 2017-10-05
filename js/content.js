@@ -3,7 +3,9 @@ var CONTENT = [
 	{
 		id: 'about',
 		title: 'About',
-		content: 'My About tile information'
+		content: 'I\'m a junior at <a href="https://mbhs.edu/departments/magnet/">Montgomery Blair High School</a>. I like working on \
+			control systems and modeling things. I\'m also a Life Scout in <a href="https://rockville1449.mytroop.us/">Troop 1449\
+			</a>. Check out my <a href="https://github.com/rytse">GitHub</a> and my <a href="res/Resume.pdf">résumé</a>.'
 	},
 
 	{
