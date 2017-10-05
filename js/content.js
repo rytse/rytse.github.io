@@ -27,7 +27,7 @@ var CONTENT = [
 	}
 ]
 
-function add_tile(title, body, img_link) {
+function add_tile(title, body, img_link, swap) {
 	// High level container that holds the entire tile
 	var container = document.createElement('div');
 	container.className = 'w3-row';
@@ -51,8 +51,14 @@ function add_tile(title, body, img_link) {
 	text_cont.appendChild(h);
 	text_cont.appendChild(content);
 
-	container.appendChild(img_cont);
-	container.appendChild(text_cont);
+	if (swap) {
+		container.appendChild(img_cont);
+		container.appendChild(text_cont);
+	} else {
+		container.appendChild(text_cont);
+		container.appendChild(img_cont);
+	}
+
 
 	return container;
 }
@@ -73,6 +79,7 @@ container.appendChild(nav);
 
 // Add tiles to <body>
 for (var i = 0; i < CONTENT.length; i++) {
-	var c = add_tile(CONTENT[i].title, CONTENT[i].content, CONTENT[i].img);
+	var c = add_tile(CONTENT[i].title, CONTENT[i].content, CONTENT[i].img, i % 2 == 0);
 	container.appendChild(c);
+	container.appendChild(document.createElement('hr'));
 }
