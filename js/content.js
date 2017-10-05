@@ -5,8 +5,8 @@ var CONTENT = [
 		title: 'About',
 		img: 'pfp.png',
 		content: 'I\'m a junior at <a href="https://mbhs.edu/departments/magnet/">Montgomery Blair High School</a>. I like working on \
-			control systems and modeling things. I\'m also a Life Scout in <a href="https://rockville1449.mytroop.us/">Troop 1449\
-			</a>. Check out my <a href="https://github.com/rytse">GitHub</a> and my <a href="res/Resume.pdf">résumé</a>.'
+			control systems and modeling things. I\'m also a Life Scout in <a href="https://rockville1449.mytroop.us/">Troop \
+			1449</a>. Check out my <a href="https://github.com/rytse">GitHub</a> and my <a href="res/Resume.pdf">résumé</a>.'
 	},
 
 	{
@@ -59,7 +59,6 @@ function add_tile(title, body, img_link, swap) {
 		container.appendChild(img_cont);
 	}
 
-
 	return container;
 }
 
@@ -69,6 +68,10 @@ var container = document.getElementById('page-top');
 // Create navbar
 var nav = document.createElement('div');
 nav.className = 'topnav';
+var h = document.createElement('a');
+h.innerHTML = 'Ryan Tse';
+h.id = 'name';
+nav.appendChild(h);
 for (var i = 0; i < CONTENT.length; i++) {
 	var link = document.createElement('a');
 	link.href = '#' + CONTENT[i].id;

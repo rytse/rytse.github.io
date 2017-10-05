@@ -5,13 +5,23 @@
 }
 
 .topnav a {
-	float: left;
-	display: block;
-	color: #f2f2f2;
-	text-align: center;
+	vertical-align: middle;
+	display: table-cell;
+
+	color: #e1e1e1;
 	padding: 14px 16px;
 	text-decoration: none;
 	font-size: 17px;
+}
+
+#name {
+	vertical-align: middle;
+	display: table-cell;
+
+	color: #e1e1e1;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 30px;
 }
 
 /* Content tile stuff */
@@ -26,9 +36,11 @@ h1 {
 .cbody {
 	margin:10px;
 	padding: 10px;
+	font-size: 120%;
 }
 
 img {
+	border-radius: 25px;
 	max-width: 90%;
 	max-height: 90%;
 	min-width: 90%;
