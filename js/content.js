@@ -39,14 +39,14 @@ function add_tile(title, body, img_link, swap) {
 	img_tile.appendChild(img);
 
 	var content_tile = document.createElement('div');
-	content_tile.className = 'tile is-8 is-parent';
+	content_tile.className = 'tile is-8 is-parent notification is-primary';
 	var article = document.createElement('article');
 	article.className = 'tile is-child box';
 
 	var text = document.createElement('div');
 	text.className = 'media-content';
 	var head = document.createElement('h1');
-	head.innerHTML = title;
+	head.innerHTML = '<b>' + title + '</b>';
 	var content = document.createElement('div');
 	content.className = 'content';
 	content.innerHTML = body;
