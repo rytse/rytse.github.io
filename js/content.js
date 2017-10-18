@@ -29,9 +29,9 @@ var CONTENT = [
 
 function add_tile(title, body, img_link, swap) {
 	var img_tile = document.createElement('div');
-	img_tile.className = 'tile is-vertical is-8';
+	img_tile.className = 'tile is-vertical';
 	var img = document.createElement('figure');
-	img.className = 'image is-128x128';
+	img.className = 'image is-256x256';
 	var rep = document.createElement('img');
 	rep.src = 'img/' + img_link;
 	rep.alt = title;
@@ -39,7 +39,7 @@ function add_tile(title, body, img_link, swap) {
 	img_tile.appendChild(img);
 
 	var content_tile = document.createElement('div');
-	content_tile.className = 'tile is-parent';
+	content_tile.className = 'tile is-8 is-parent';
 	var article = document.createElement('article');
 	article.className = 'tile is-child box';
 
@@ -57,8 +57,16 @@ function add_tile(title, body, img_link, swap) {
 
 	var all = document.createElement('div');
 	all.className = 'tile is-parent';
-	all.appendChild(img_tile);
-	all.appendChild(content_tile);
+
+
+	if (swap) {
+		all.appendChild(img_tile);
+		all.appendChild(content_tile);
+	} else {
+		all.appendChild(content_tile);
+		all.appendChild(img_tile);
+	}
+
 
 	return all;
 }
