@@ -23,12 +23,15 @@ h1 {
 	text-align: center;
 }
 
+/*
 .cbody {
 	margin:10px;
 	padding: 10px;
 	font-size: 160%;
 }
+*/
 
+/*
 img {
 	border-radius: 25px;
 	max-width: 90%;
@@ -36,6 +39,7 @@ img {
 	min-width: 90%;
 	min-height: 90%;
 }
+*/
 
 /* Navbar stuff */
 .topnav {

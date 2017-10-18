@@ -28,38 +28,39 @@ var CONTENT = [
 ]
 
 function add_tile(title, body, img_link, swap) {
-	// High level container that holds the entire tile
-	var container = document.createElement('div');
-	container.className = 'w3-row';
+	var img_tile = document.createElement('div');
+	img_tile.className = 'tile is-vertical is-8';
+	var img = document.createElement('figure');
+	img.className = 'image is-128x128';
+	var rep = document.createElement('img');
+	rep.src = 'img/' + img_link;
+	rep.alt = title;
+	img.appendChild(rep);
+	img_tile.appendChild(img);
 
-	// Image + image container
-	var img = document.createElement('img');
-	img.src = "img/" + img_link;
-	img.alt = title;
-	var img_cont = document.createElement('div');
-	img_cont.className = 'w3-third w3-container';
-	img_cont.appendChild(img);
+	var content_tile = document.createElement('div');
+	content_tile.className = 'tile is-parent';
+	var article = document.createElement('article');
+	article.className = 'tile is-child box';
 
-	// Text + text container
-	var text_cont = document.createElement('div');
-	text_cont.className = 'w3-twothird w3-container';
-	var h = document.createElement('h1');
-	h.innerHTML = title;
+	var text = document.createElement('div');
+	text.className = 'media-content';
+	var head = document.createElement('h1');
+	head.innerHTML = title;
 	var content = document.createElement('div');
-	content.className = 'cbody';
-	content.innerHTML = body
-	text_cont.appendChild(h);
-	text_cont.appendChild(content);
+	content.className = 'content';
+	content.innerHTML = body;
+	text.appendChild(head);
+	text.appendChild(content);
+	article.appendChild(text);
+	content_tile.appendChild(article);
 
-	if (swap) {
-		container.appendChild(img_cont);
-		container.appendChild(text_cont);
-	} else {
-		container.appendChild(text_cont);
-		container.appendChild(img_cont);
-	}
+	var all = document.createElement('div');
+	all.className = 'tile is-parent';
+	all.appendChild(img_tile);
+	all.appendChild(content_tile);
 
-	return container;
+	return all;
 }
 
 // Reference to <body>
@@ -79,7 +80,6 @@ for (var i = 0; i < CONTENT.length; i++) {
 	nav.appendChild(link);
 }
 container.appendChild(nav);
-container.appendChild(document.createElement('br'));
 
 // Add tiles to <body>
 for (var i = 0; i < CONTENT.length; i++) {
