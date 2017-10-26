@@ -23,6 +23,10 @@ h1 {
 	text-align: center;
 }
 
+#media-content {
+	font-size: 17px;
+}
+
 /*
 .cbody {
 	margin:10px;
