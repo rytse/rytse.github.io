@@ -1,3 +1,8 @@
+<<<<<<< HEAD
 _site
 .sass-cache
 .jekyll-metadata
+=======
+# Exclude vim swap files
+*.swp
+>>>>>>> 4e2e4abc3649003dc1eae7df6610dabf2611b437
