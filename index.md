@@ -19,10 +19,7 @@ More details available on our [website](https://www.blair3sat.com/).
 
 # MBHS Systems
 
-I'm a member of MBHS Systems, a new Blair team that takes on hard real-world modeling problems.
-This year we are working on a global pollen model, trying to predict pollen concentration based
-on satellite imagery of regions' ecological and geographical features. Most of my work has been
-on efficiently representing pollen emissions and how pollen plumes move.
+I'm a member of MBHS Systems, a new Blair team that takes on hard real-world modeling problems. This year we are working on a global atmospheric dispersion model, trying to predict how particles such as pollen or pollutants move through the air. Most of my work has been on efficiently representing distributions of these particles and how these distributions evolve due to weather effects.
 
 We've just begun implementing our model. You can check out our progress
 [here](https://github.com/mbhs-systems).
