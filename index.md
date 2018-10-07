@@ -9,9 +9,13 @@ like working on control systems and modeling things. I'm also a Life Scout in
 [Troop 1449](https://rockville1449.mytroop.us). Check out my [GitHub](https://github.com/rytse)
 and my [résumé](res/Resume.pdf).
 
-# Blair CubeSat Project
+# blair3sat
 
-I'm starting a CubeSat team at my highschool. Details coming soon!
+I lead a CubeSat team at my highschool. We’re an entirely student-run team working to build and fly a small satellite to measure characteristics of the ionosphere.
+
+Our satellite has two science objectives. Our primary mission is to take ionospheric charge density measurements from space. We will receive ground-based ionospheric radar soundings and perform low power space-based soundings. This data would complement ground-to-ground soundings and would be applied to radio propagation models to improve HF communications and OTH radar tech. Our secondary mission is to detect high energy particles' photon emissions in the ionosphere. This data would contribute to basic research in geomagnetics and the study of how the magnetosphere interacts with solar radiation.
+
+More details available on our [website](https://www.blair3sat.com/).
 
 # MBHS Systems
 
