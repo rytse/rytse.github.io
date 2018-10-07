@@ -4,7 +4,7 @@
 layout: home
 ---
 
-I'm a rising senior at [Montgomery Blair High School](https://mbhs.edu/departments/magnet/). I
+I'm a senior at [Montgomery Blair High School](https://mbhs.edu/departments/magnet/). I
 like working on control systems and modeling things. I'm also a Life Scout in
 [Troop 1449](https://rockville1449.mytroop.us). Check out my [GitHub](https://github.com/rytse)
 and my [résumé](res/Resume.pdf).
