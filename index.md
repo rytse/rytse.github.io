@@ -24,3 +24,6 @@ I'm a member of MBHS Systems, a new Blair team that takes on hard real-world mod
 We've just begun implementing our model. You can check out our progress
 [here](https://github.com/mbhs-systems).
 
+# Oracle of Blair
+
+My political statistics class made a predictive model for the 2018 U.S. House election. Check out our model [here](https://polistat.mbhs.edu/). Check out the demographics preprocessor, written by me, [here](https://github.com/rytse/blairvoyance).
