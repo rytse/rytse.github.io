@@ -25,8 +25,8 @@ github_username:  rytse
 
 # Build settings
 markdown: kramdown
-theme: minima
-# theme: jekyll-theme-midnight
+# theme: minima
+theme: jekyll-theme-midnight
 plugins:
   - jekyll-feed
 
