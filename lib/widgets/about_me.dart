@@ -14,9 +14,12 @@ class AboutMe extends StatelessWidget {
           child: Row(
 			mainAxisAlignment: MainAxisAlignment.spaceBetween,
 			crossAxisAlignment: CrossAxisAlignment.baseline,
+			mainAxisSize: MainAxisSize.min,
 			textBaseline: TextBaseline.alphabetic,
 			children: <Widget>[
-				SizedBox(
+				Container(
+					alignment: Alignment.center,
+					child: SizedBox(
 					height: 300,
 					width: 300,
 					child: CircularProfileAvatar(
@@ -31,29 +34,46 @@ class AboutMe extends StatelessWidget {
 					),	// CircularProfileAvatar
 				),	// SizedBox for pic of face
 
+				),
+
 				SizedBox(width: 120),
 
-				Expanded(child: Center(child: Column(
-					children: <Widget>[
-						Text(
-					        'About Me:',
-					        style: TextStyle(fontSize: 42),
-			    		),
+				Card(
+					child: SizedBox(
+						height: 400,
+						width: 500,
 
-			    		Divider(
-			    			height: 50,
-			    			thickness: 3,
-			    			color: Colors.black
-			    		),
+						child: Container(
+							padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+							alignment: Alignment.center,
+							color: Colors.purple,
 
-			    		Text(
-			    			'I’m a freshman at the University of Maryland, College Park studying Electrical Engineering and Applied Math. I like working on control systems and modeling things. I’m also an Eagle Scout from Troop 1449. Check out my GitHub and my résumé.',
-			    			style: TextStyle(fontSize: 20),
-		    			),
-					]
-				)))
+							child: Column(
+								children: <Widget>[
+									Text(
+								        'About Me:',
+								        style: TextStyle(fontSize: 42),
+						    		),
 
-				
+						    		Divider(
+						    			height: 50,
+						    			thickness: 3,
+						    			color: Colors.black
+						    		),
+
+						    		Container(
+						    			color: Colors.green,
+						    			padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 20),
+						    			child: Text(
+							    			'I’m a freshman at the University of Maryland, College Park\nstudying Electrical Engineering and Applied Math. I like working\non control systems and modeling things. I’m also an Eagle Scout\nfrom Troop 1449. Check out my GitHub and my résumé.',
+							    			style: TextStyle(fontSize: 20),
+						    			),
+					    			),
+								]
+							),
+						),
+					),
+				),
 
 			]	// children of the row
 		)
