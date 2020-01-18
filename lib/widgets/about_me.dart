@@ -8,11 +8,10 @@ class AboutMe extends StatelessWidget {
     	  decoration: BoxDecoration(
             image: DecorationImage(
               image: ExactAssetImage('assets/bigpfp.jpg'),
-              fit: BoxFit.cover,
+              fit: BoxFit.fill,
             ),
           ),
           child: Row(
-			//mainAxisAlignment: MainAxisAlignment.spaceBetween,
 			mainAxisAlignment: MainAxisAlignment.center,
 			crossAxisAlignment: CrossAxisAlignment.center,
 			mainAxisSize: MainAxisSize.max,
@@ -39,7 +38,9 @@ class AboutMe extends StatelessWidget {
 
 				SizedBox(width: 120),
 
-				Card(
+                ClipRRect(
+                    borderRadius: BorderRadius.circular(20),
+
 					child: SizedBox(
 						height: 400,
 						width: 500,
@@ -74,7 +75,7 @@ class AboutMe extends StatelessWidget {
 							),
 						),
 					),
-				),
+                )
 
 			]	// children of the row
 		)
