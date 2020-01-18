@@ -12,9 +12,10 @@ class AboutMe extends StatelessWidget {
             ),
           ),
           child: Row(
-			mainAxisAlignment: MainAxisAlignment.spaceBetween,
-			crossAxisAlignment: CrossAxisAlignment.baseline,
-			mainAxisSize: MainAxisSize.min,
+			//mainAxisAlignment: MainAxisAlignment.spaceBetween,
+			mainAxisAlignment: MainAxisAlignment.center,
+			crossAxisAlignment: CrossAxisAlignment.center,
+			mainAxisSize: MainAxisSize.max,
 			textBaseline: TextBaseline.alphabetic,
 			children: <Widget>[
 				Container(
