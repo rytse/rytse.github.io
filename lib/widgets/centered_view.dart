@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
 
+/**
+ * View widget that spans the middle 1200 pixels
+ * of the page (doesn't expand to fill indefinitely)
+ */
 class CenteredView extends StatelessWidget {
   final Widget child;
   const CenteredView({Key key, this.child}) : super(key: key);
@@ -12,7 +16,7 @@ class CenteredView extends StatelessWidget {
       child: ConstrainedBox(
         constraints: BoxConstraints(maxWidth: 1200),
         child: child,
-      ), // ConstrainedBox
-    ); // Container
+      ),
+    );
   }
 }

@@ -4,6 +4,9 @@ import '../widgets/navbar.dart';
 import '../widgets/centered_view.dart';
 import '../widgets/about_me.dart';
 
+/**
+ * Homepage
+ */
 class HomeView extends StatelessWidget {
   const HomeView({Key key}) : super(key: key);
 
@@ -20,14 +23,12 @@ class HomeView extends StatelessWidget {
                   Navbar(),
                 ],
               ),
-
               SizedBox(height: 60),
-
               Expanded(
                 child: AboutMe(),
-              ), // expanded
-            ]), // Column
+              ),
+            ]),
       ),
-    ); // Scaffold
+    );
   }
 }

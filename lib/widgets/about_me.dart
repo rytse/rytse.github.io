@@ -1,6 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:circular_profile_avatar/circular_profile_avatar.dart';
 
+/**
+ * About Me section with a picture of me and a one-paragraph
+ * blurb about myself, and a link to my resume
+ */
 class AboutMe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -16,6 +20,8 @@ class AboutMe extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             mainAxisSize: MainAxisSize.max,
             textBaseline: TextBaseline.alphabetic,
+
+            // Profile picture
             children: <Widget>[
               Container(
                 alignment: Alignment.center,
@@ -34,10 +40,13 @@ class AboutMe extends StatelessWidget {
                     borderColor: Colors.green,
                     elevation: 10.0,
                     radius: 300,
-                  ), // CircularProfileAvatar
-                ), // SizedBox for pic of face
+                  ),
+                ),
               ),
+
               SizedBox(width: 120),
+
+              // Blurb
               ClipRRect(
                 borderRadius: BorderRadius.circular(20),
                 child: SizedBox(
@@ -60,7 +69,6 @@ class AboutMe extends StatelessWidget {
                             horizontal: 20, vertical: 20),
                         child: Text(
                           'I’m a freshman at the University of Maryland, College Park\nstudying Electrical Engineering and Applied Math. I like working\non control systems and modeling things. I’m also an Eagle Scout\nfrom Troop 1449. Check out my GitHub and my résumé.',
-                          //style: TextStyle(fontSize: 25, color: Colors.pink[100]),
                           style: TextStyle(fontSize: 25, color: Colors.white),
                         ),
                       ),
@@ -68,7 +76,6 @@ class AboutMe extends StatelessWidget {
                   ),
                 ),
               )
-            ] // children of the row
-            ));
+            ]));
   }
 }
