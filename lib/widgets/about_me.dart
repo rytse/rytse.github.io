@@ -9,12 +9,31 @@ class AboutMe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
+        decoration: ShaderMask(
+          child: Image(
+            image: AssetImage("assets/dollysods.png"),
+          ),
+          shaderCallback: (Rect bounds) {
+            return LinearGradient(
+              colors: [Colors.blue, Colors.lightBlue],
+              stops: [
+                0.0,
+                0.5,
+              ],
+            ).createShader(bounds);
+          },
+          blendMode: BlendMode.srcATop,
+        ),
+
+        //color: Colors.indigo[100],
+        /*
         decoration: BoxDecoration(
           image: DecorationImage(
-            image: ExactAssetImage('assets/bigpfp.jpg'),
-            fit: BoxFit.fill,
+            //image: ExactAssetImage('assets/bigpfp.jpg'),
+            //image: ExactAssetImage('assets/dollysoddscampground.JPG'),
+            //fit: BoxFit.fill,
           ),
-        ),
+          */
         child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
@@ -26,8 +45,8 @@ class AboutMe extends StatelessWidget {
               Container(
                 alignment: Alignment.center,
                 child: SizedBox(
-                  height: 300,
-                  width: 300,
+                  height: 450,
+                  width: 450,
                   child: CircularProfileAvatar(
                     '',
                     child: Image(image: ExactAssetImage('assets/face.jpeg')),
@@ -38,8 +57,8 @@ class AboutMe extends StatelessWidget {
                       style: TextStyle(fontSize: 40, color: Colors.white),
                     ),
                     borderColor: Colors.green,
-                    elevation: 10.0,
-                    radius: 300,
+                    elevation: 7.0,
+                    radius: 400,
                   ),
                 ),
               ),
@@ -56,15 +75,18 @@ class AboutMe extends StatelessWidget {
                     padding: const EdgeInsets.symmetric(
                         horizontal: 20, vertical: 20),
                     alignment: Alignment.center,
-                    color: Colors.indigo[400].withOpacity(0.85),
+                    //color: Colors.indigo[400].withOpacity(0.85),
+                    color: Colors.tealAccent[400].withOpacity(0.55),
                     child: Column(children: <Widget>[
                       Text(
                         'About Me:',
-                        style: TextStyle(fontSize: 42),
+                        style:
+                            TextStyle(fontSize: 42, color: Colors.blueGrey[50]),
                       ),
                       Divider(height: 50, thickness: 3, color: Colors.black),
                       Container(
-                        color: Colors.indigo[300].withOpacity(0.8),
+                        //color: Colors.indigo[300].withOpacity(0.8),
+                        color: Colors.tealAccent[400].withOpacity(0.0),
                         padding: const EdgeInsets.symmetric(
                             horizontal: 20, vertical: 20),
                         child: Text(
