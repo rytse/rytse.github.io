@@ -41,26 +41,39 @@ class AboutMe extends StatelessWidget {
 
           // Profile picture
           children: <Widget>[
-            Container(
-              alignment: Alignment.center,
-              child: SizedBox(
-                height: 450,
-                width: 450,
-                child: CircularProfileAvatar(
-                  '',
-                  child: Image(image: ExactAssetImage('assets/face.jpeg')),
-                  backgroundColor: Colors.transparent,
-                  borderWidth: 5,
-                  initialsText: Text(
-                    "RT",
-                    style: TextStyle(fontSize: 40, color: Colors.white),
+            Column(children: <Widget>[
+              Container(
+                alignment: Alignment.center,
+                child: SizedBox(
+                  height: 450,
+                  width: 450,
+                  child: CircularProfileAvatar(
+                    '',
+                    child: Image(image: ExactAssetImage('assets/face.jpeg')),
+                    backgroundColor: Colors.transparent,
+                    borderWidth: 5,
+                    initialsText: Text(
+                      "RT",
+                      style: TextStyle(fontSize: 40, color: Colors.white),
+                    ),
+                    borderColor: Colors.black,
+                    elevation: 7.0,
+                    radius: 400,
                   ),
-                  borderColor: Colors.black,
-                  elevation: 7.0,
-                  radius: 400,
                 ),
               ),
-            ),
+              FloatingActionButton(
+                  onPressed: () {
+                    // Add your onPressed code here!
+                  },
+                  child: ClipRRect(
+                      borderRadius: BorderRadius.circular(10),
+                      child: SizedBox(
+                        height: 300,
+                        width: 300,
+                        child: Text('Download my resume'),
+                      ))),
+            ]),
 
             SizedBox(width: 120),
 
