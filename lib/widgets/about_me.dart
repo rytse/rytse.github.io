@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:circular_profile_avatar/circular_profile_avatar.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 /**
  * About Me section with a picture of me and a one-paragraph
@@ -96,30 +97,47 @@ class AboutMe extends StatelessWidget {
                   //color: Colors.tealAccent[400].withOpacity(0.55),
                   color: Color(0x062726).withOpacity(0.75),
                   child: Column(children: <Widget>[
-                    Text(
-                      'About Me:',
-                      style:
+                    //Text('About Me:',
+                    Text('ABOUT ME:',
+                        style: GoogleFonts.montserrat(
+                          //style: GoogleFonts.libreFranklin(
+                          textStyle: TextStyle(
+                              fontSize: 42,
+                              //color: Color(0xecd9f4).withOpacity(0.90)),
+                              color: Colors.white.withOpacity(0.90)),
+                        )
+
+                        /*style: 
                           //TextStyle(fontSize: 42, color: Colors.blueGrey[50]),
                           TextStyle(
                               fontSize: 42,
                               color: Color(0xecd9f4).withOpacity(0.90)),
-                    ),
-                    Divider(height: 50, thickness: 3, color: Colors.black),
+                              */
+                        ),
+                    //Divider(height: 50, thickness: 3, color: Colors.white),
                     Container(
-                      //color: Colors.indigo[300].withOpacity(0.8),
-                      //   color: Colors.tealAccent[400].withOpacity(0.0),
-                      color: Color(0x102b3f).withOpacity(0),
-                      padding: const EdgeInsets.symmetric(
-                          horizontal: 20, vertical: 20),
-                      child: Text(
-                        'I’m a freshman at the University of Maryland, College Park\nstudying Electrical Engineering and Applied Math. I like working\non control systems and modeling things. I’m also an Eagle Scout\nfrom Troop 1449. Check out my GitHub and my résumé.',
-                        //style: TextStyle(fontSize: 25, color: Colors.white),
-                        style: TextStyle(
+                        //color: Colors.indigo[300].withOpacity(0.8),
+                        //   color: Colors.tealAccent[400].withOpacity(0.0),
+                        color: Color(0x102b3f).withOpacity(0),
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 20, vertical: 20),
+                        child: Text(
+                          'I’m a freshman at the University of Maryland, College Park studying Electrical Engineering and Applied Math. I like working on control systems and modeling things. I’m also an Eagle Scout from Troop 1449. Check out my GitHub and my résumé.',
+                          //style: TextStyle(fontSize: 25, color: Colors.white),
+                          style: GoogleFonts.openSans(
+                            //style: GoogleFonts.libreBaskerville(
+                            textStyle: TextStyle(
+                                fontSize: 25,
+                                //  color: Color(0xecd9f4).withOpacity(0.75)),
+                                color: Colors.white.withOpacity(0.90)),
+                          ),
+                        )
+                        /*style: TextStyle(
                             fontSize: 25,
                             //color: Color(0xe2cfea).withOpacity(0.75)),
                             color: Color(0xecd9f4).withOpacity(0.75)),
-                      ),
-                    ),
+                      ),*/
+                        ),
                   ]),
                 ),
               ),
