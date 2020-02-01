@@ -15,7 +15,6 @@ class Navbar extends StatelessWidget {
           children: <Widget>[
             //Text('Ryan\nTse',
             Text('RYAN\nTSE',
-                //style: TextStyle(fontSize: 45, fontWeight: FontWeight.bold),
                 style: GoogleFonts.montserrat(
                   textStyle: TextStyle(
                     fontSize: 45,

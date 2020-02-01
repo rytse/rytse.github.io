@@ -105,16 +105,8 @@ class AboutMe extends StatelessWidget {
                               fontSize: 42,
                               //color: Color(0xecd9f4).withOpacity(0.90)),
                               color: Colors.white.withOpacity(0.90)),
-                        )
+                        )),
 
-                        /*style: 
-                          //TextStyle(fontSize: 42, color: Colors.blueGrey[50]),
-                          TextStyle(
-                              fontSize: 42,
-                              color: Color(0xecd9f4).withOpacity(0.90)),
-                              */
-                        ),
-                    //Divider(height: 50, thickness: 3, color: Colors.white),
                     Container(
                         //color: Colors.indigo[300].withOpacity(0.8),
                         //   color: Colors.tealAccent[400].withOpacity(0.0),
@@ -123,21 +115,13 @@ class AboutMe extends StatelessWidget {
                             horizontal: 20, vertical: 20),
                         child: Text(
                           'I’m a freshman at the University of Maryland, College Park studying Electrical Engineering and Applied Math. I like working on control systems and modeling things. I’m also an Eagle Scout from Troop 1449. Check out my GitHub and my résumé.',
-                          //style: TextStyle(fontSize: 25, color: Colors.white),
                           style: GoogleFonts.openSans(
-                            //style: GoogleFonts.libreBaskerville(
                             textStyle: TextStyle(
                                 fontSize: 25,
                                 //  color: Color(0xecd9f4).withOpacity(0.75)),
                                 color: Colors.white.withOpacity(0.90)),
                           ),
-                        )
-                        /*style: TextStyle(
-                            fontSize: 25,
-                            //color: Color(0xe2cfea).withOpacity(0.75)),
-                            color: Color(0xecd9f4).withOpacity(0.75)),
-                      ),*/
-                        ),
+                        )),
                   ]),
                 ),
               ),
