@@ -9,13 +9,11 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
+## Education
 * (In Progress) B.S. in Electrical Engineering, B.S. in Mathematics, University of Maryland (College Park), 2019-2023
 * Montgomery Blair High School STEM Magnet, 2015-2019
 
-Work experience
-======
+## Work experience
 * Summer 2020 - Present: [Nuro](nuro.ai), Radar DSP Intern
   * Developing, simulating, and implementing digital signal processing algorithms for radars on self-driving delivery vehicles.
   * Supervisor: [JQ Huang](https://www.linkedin.com/in/jingqing/)
@@ -34,8 +32,7 @@ Work experience
   * Researched deep learning-based approaches to vehicle trilateration, working with regression models and reinforcement learning agents.
   * Supervisor: [Donald Sofge](https://faculty.eng.umd.edu/clark/download/104)
   
-Skills
-======
+## Skills
 
 **Experienced**
  * Python
@@ -65,14 +62,12 @@ Skills
  * ROS
 
 
-Publications
-======
+## Publications
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Service and leadership
-======
+## Service and leadership
 
 **blair3sat**: *President* - 19 person, 4 subteam group
 
