@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+The following is a web-based resume / CV. For a PDF version, click [here](https://rytse.github.io/files/RyanTseResume.pdf).
+
 ## Education
 * (In Progress) B.S. in Electrical Engineering, B.S. in Mathematics, University of Maryland (College Park), 2019-2023
 * Montgomery Blair High School STEM Magnet, 2015-2019
