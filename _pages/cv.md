@@ -47,6 +47,7 @@ The following is a web-based resume / CV. For a PDF version, click [here](https:
  * Autodesk Inventor
 
 **Familiar**
+ * Verilog
  * C++
  * Julia
  * R
