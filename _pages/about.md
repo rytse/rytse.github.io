@@ -23,7 +23,7 @@ Stuff I'm currently studying:
  * Variational methods
  * Lie algebra stuff 
 
-Stuff I'll be studying soon (these aren't really math):
+Stuff I'll be studying soon:
  * Biohybrid swimmers
  * Quantum physics
 
