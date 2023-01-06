@@ -12,8 +12,9 @@ redirect_from:
 The following is a web-based resume / CV. For a PDF version, click [here](https://rytse.github.io/files/RyanTseResume.pdf).
 
 ## Education
-* (In Progress) B.S. in Electrical Engineering, B.S. in Mathematics, University of Maryland (College Park), 2019-2023
-* Montgomery Blair High School STEM Magnet, 2015-2019
+* (In Progress) Electrical and Computer Engineering, Combined BS/MS, University of Maryland (College Park), 2019-2023
+* (Complete) Mathematics, BS, University of Maryland (College Park), 2019-2022
+* (Complete) Montgomery Blair High School, STEM Magnet, 2015-2019
 
 ## Work experience
 * Summer 2020 - Present: [Nuro](nuro.ai), Radar DSP Intern
@@ -47,8 +48,10 @@ The following is a web-based resume / CV. For a PDF version, click [here](https:
  * Autodesk Inventor
 
 **Familiar**
- * Verilog
  * C++
+ * Verilog
+ * KiCAD
+ * Cadence
  * Julia
  * R
  * Tensorflow
@@ -63,6 +66,9 @@ The following is a web-based resume / CV. For a PDF version, click [here](https:
  * GCP
  * JavaScript
  * ROS
+ * MIPS ASM
+ * ARM ASM
+ * AVX
 
 
 ## Publications
