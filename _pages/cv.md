@@ -12,11 +12,16 @@ redirect_from:
 The following is a web-based resume / CV. For a PDF version, click [here](https://rytse.github.io/files/RyanTseResume.pdf).
 
 ## Education
-* (In Progress) Electrical and Computer Engineering, Combined BS/MS, University of Maryland (College Park), 2019-2023
+* (In Progress) Electrical and Computer Engineering, MS, University of Maryland (College Park), 2022-Present
 * (Complete) Mathematics, BS, University of Maryland (College Park), 2019-2022
+* (Complete) Electrical Engineering, BS, University of Maryland (College Park), 2019-2023
 * (Complete) Montgomery Blair High School, STEM Magnet, 2015-2019
 
 ## Work experience
+* Summer 2023 - Present: [Matician](https://matician.com/), Research Engineer
+  * Incoming research engineer.
+  * Supervisor: [Navneet Dalal](https://www.linkedin.com/in/ndalal/)
+
 * Summer 2020 - Present: [Nuro](nuro.ai), Radar DSP Intern
   * Developing, simulating, and implementing digital signal processing algorithms for radars on self-driving delivery vehicles.
   * Supervisor: [JQ Huang](https://www.linkedin.com/in/jingqing/)
@@ -76,12 +81,3 @@ The following is a web-based resume / CV. For a PDF version, click [here](https:
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-## Service and leadership
-
-**blair3sat**: *President* - 19 person, 4 subteam group
-
-**blair3sat**: *RF Instrument Lead* - 4 person subteam
-
-**FRC Team 449**: *Software and Controls Subteam Lead* - 5 person subteam
-
-**Troop 1449**: *Senior Patrol Leader* - 35 person, 4 patrol troop
