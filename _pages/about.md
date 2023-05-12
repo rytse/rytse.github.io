@@ -19,9 +19,10 @@ I'm an incoming research engineer at [Matician](https://matician.com/), an indoo
 ## Learning Stuff
 
 Stuff I'm currently studying:
+ * Geometric machine learning
  * Stochastic processes
  * Diffusion models
- * Geometric machine learning
+ * Reinforcement learning
  * Algebraic topology
 
 Stuff I'll be studying soon:
