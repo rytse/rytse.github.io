@@ -19,7 +19,10 @@ The following is a web-based resume / CV. For a PDF version, click [here](https:
 
 ## Work experience
 * Summer 2023 - Present: [Matician](https://matician.com/), Research Engineer
-  * Incoming research engineer.
+  * Designing algorithms to address open problems in simultaneous localization and mapping (SLAM) for robotics
+  * Nightly map optimization (SfM)
+  * Camera auto‐calibration
+  * Robot's-eye-view visualizer
   * Supervisor: [Navneet Dalal](https://www.linkedin.com/in/ndalal/)
 
 * Summer 2020 - Present: [Nuro](nuro.ai), Radar DSP Intern
@@ -43,38 +46,28 @@ The following is a web-based resume / CV. For a PDF version, click [here](https:
 ## Skills
 
 **Experienced**
+ * Rust
  * Python
  * C
- * Matlab
- * Java
+ * C++
+ * PyTorch
+ * JAX
  * Git
- * Linux
- * GNURadio
- * Autodesk Inventor
 
 **Familiar**
- * C++
+ * Matlab
  * Verilog
- * KiCAD
- * Cadence
- * Julia
- * R
- * Tensorflow
- * Keras
- * OpenAI Gym
- * OpenCV
  * LaTeX
+ * Tensorflow
+ * OpenCV
+ * ROS
 
 **Novice**
- * Rust
- * AWS
- * GCP
- * JavaScript
- * ROS
- * MIPS ASM
- * ARM ASM
- * AVX
-
+ * KiCAD
+ * Cadence
+ * Simulink
+ * ASM
+ * AWS/GCP
 
 ## Publications
   <ul>{% for post in site.publications %}

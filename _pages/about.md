@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Applied Uncertainty"
+title: "About"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,27 +8,26 @@ redirect_from:
   - /about.html
 ---
 
-I like building things and learning stuff. Most of my interests revolve around control theory, machine learning, and signal processing, but I'm also interested in physics and "economics."
+# Symmetry, Optimality, and Robotics
 
-## Building Things
 
-I have ~3 research projects currently in the pipeline, a few related to my masters program and a few that I'm doing on my own. Papers coming soon!
+I'm a research engineer at [Matic](https://maticrobots.com/), where I work on problems relating to optimization and visual SLAM. At the same time, I'm finishing my master's thesis on representation learning for reinforcement learning at the University of Maryland, where I'm fortunate to be advised by [Professor Kaiqin Zhang](https://kzhang66.github.io/). I'm curious about symmetry and optimization, and I try to use these tools to make robots smarter.
 
-I'm an incoming research engineer at [Matician](https://matician.com/), an indoor robotics startup. I used to be a radar signal processing engineer at [Nuro](https://nuro.ai/), a self-driving delivery vehicle startup. A while ago I founded [blair3sat](https://www.blair3sat.com/), an acadaemic team building a CubeSat to map ionospheric charge density in-situ.
+## Projects
 
-## Learning Stuff
+Aside from my job, my recent work has been in discovering and exploiting symmetries in deep learning models. Right now I have one paper under review and another in progress regarding this topic. While these aren't out yet, I have open sourced some of the software I wrote relating to these projects, including [torchemlp](https://github.com/rytse/torchemlp), [geonets](https://github.com/rytse/geonets), and [camoc](https://github.com/rytse/camoc-multiagent).
 
-Stuff I'm currently studying:
- * Geometric machine learning
- * Stochastic processes
- * Diffusion models
- * Reinforcement learning
- * Algebraic topology
+A while back, I started [blair3sat](https://www.blair3sat.com/), an academic team designing a CubeSat instrument for measuring ionospheric charge density. Our original effort fizzled out after I graduated, but recently I've been helping some students picked the project back up.
 
-Stuff I'll be studying soon:
- * Plasma physics
- * Quantum physics
+## Work Experience
 
-## Other Stuff I Do
+ - Matic, Research Engineer, Jun 2023 - Present
+ - Nuro, Radar DSP Intern, Jun 2020 - Dec 2020] ∪ [Jun 2021 - Aug 2021]
+ - Intelligent Automation, Intern, Jun 2019 - Aug 2019
+ - Naval Research Laboratory, Intern, [Jun 2017 - Aug 2017] ∪ [May 2018 - Aug 2018]
 
-Outside of my "productive" interests, I also like rock climbing (mostly bouldering) and backpacking. If you live in the Bay Area and want to get coffee, talk about math, or climb rocks with me, feel free to DM me on Twitter or email me at 𝔯𝔶𝔞𝔫𝔱𝔰𝔢100@𝔤𝔪𝔞𝔦𝔩.𝔠𝔬𝔪.
+## Educational Background
+
+ - Bachelor's in Mathematics, University of Maryland, Aug 2019 - May 2022
+ - Bachelor's in Electrical Engineering, University of Maryland, [Aug 2019 - May 2022] ∪ [Jan 2023 - May 2023]
+ - Master's in Electrical and Computer Engineering, University of Maryland, [Aug 2022 - May 2022] ∪ [Returning in Jan 2024]
