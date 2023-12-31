@@ -1,15 +1,12 @@
 ---
 permalink: /
-title: "About"
+title: "Symmetry, Optimality, and Robotics"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-# Symmetry, Optimality, and Robotics
-
 
 I'm a research engineer at [Matic](https://maticrobots.com/), where I work on problems relating to optimization and visual SLAM. At the same time, I'm finishing my master's thesis on representation learning for reinforcement learning at the University of Maryland, where I'm fortunate to be advised by [Professor Kaiqin Zhang](https://kzhang66.github.io/). I'm curious about symmetry and optimization, and I try to use these tools to make robots smarter.
 
@@ -21,13 +18,13 @@ A while back, I started [blair3sat](https://www.blair3sat.com/), an academic tea
 
 ## Work Experience
 
- - Matic, Research Engineer, Jun 2023 - Present
- - Nuro, Radar DSP Intern, Jun 2020 - Dec 2020] ∪ [Jun 2021 - Aug 2021]
- - Intelligent Automation, Intern, Jun 2019 - Aug 2019
- - Naval Research Laboratory, Intern, [Jun 2017 - Aug 2017] ∪ [May 2018 - Aug 2018]
+ - [Matic](https://maticrobots.com/), Research Engineer, [Jun 2023 - Present)
+ - [Nuro](https://www.nuro.ai/), Radar DSP Intern, [Jun 2020 - Dec 2020] ∪ [Jun 2021 - Aug 2021]
+ - [Intelligent Automation](https://www.linkedin.com/company/intelligent-automation-inc/), Intern, [Jun 2019 - Aug 2019]
+ - [Naval Research Laboratory](https://www.nrl.navy.mil/Our-Work/Areas-of-Research/Spacecraft-Engineering/), Intern, [Jun 2017 - Aug 2017] ∪ [May 2018 - Aug 2018]
 
 ## Educational Background
 
- - Bachelor's in Mathematics, University of Maryland, Aug 2019 - May 2022
- - Bachelor's in Electrical Engineering, University of Maryland, [Aug 2019 - May 2022] ∪ [Jan 2023 - May 2023]
- - Master's in Electrical and Computer Engineering, University of Maryland, [Aug 2022 - May 2022] ∪ [Returning in Jan 2024]
+ - BS, Mathematics, University of Maryland, [Aug 2019 - May 2022]
+ - BS, Electrical Engineering, University of Maryland, [Aug 2019 - May 2022] ∪ [Jan 2023 - May 2023]
+ - MS, Electrical and Computer Engineering, University of Maryland, [Aug 2022 - May 2022] ∪ (Returning in Jan 2024)
