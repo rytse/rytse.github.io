@@ -27,4 +27,4 @@ A while back, I started [blair3sat](https://www.blair3sat.com/), an academic tea
 
  - BS, Mathematics, University of Maryland, [Aug 2019 - May 2022]
  - BS, Electrical Engineering, University of Maryland, [Aug 2019 - May 2022] ∪ δ(May 2023)
- - MS, Electrical and Computer Engineering, University of Maryland, [Aug 2022 - May 2022] ∪ (Returning Jan 2024)
+ - MS, Electrical and Computer Engineering, University of Maryland, [Aug 2022 - May 2023] ∪ (Returning Jan 2024)
